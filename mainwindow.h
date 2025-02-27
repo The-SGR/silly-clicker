@@ -2,6 +2,9 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <qsqldatabase.h>
+#include <QDebug>
+#include <QSqlQuery>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -26,7 +29,11 @@ private slots:
 
     void on_pushButton_2_clicked();
 
+    void on_pushButton_3_clicked();
+
 private:
     Ui::MainWindow *ui;
+    QSqlDatabase db;
+    QSqlQuery *query;
 };
 #endif // MAINWINDOW_H

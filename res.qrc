@@ -2,5 +2,6 @@
     <qresource prefix="/cats">
         <file>res/milly.jpg</file>
         <file>res/uni.png</file>
+        <file>res/lunaistabby.jpg</file>
     </qresource>
 </RCC>

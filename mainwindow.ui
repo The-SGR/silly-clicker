@@ -114,16 +114,23 @@
      <string>0</string>
     </property>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>200</x>
-      <y>520</y>
-      <width>191</width>
+      <x>140</x>
+      <y>530</y>
+      <width>254</width>
       <height>41</height>
      </rect>
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="text">
+        <string>Reset Clicks</string>
+       </property>
+      </widget>
+     </item>
      <item>
       <widget class="QPushButton" name="gitBtn">
        <property name="text">
@@ -140,17 +147,36 @@
      </item>
     </layout>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>370</y>
-      <width>101</width>
-      <height>101</height>
+      <x>50</x>
+      <y>350</y>
+      <width>301</width>
+      <height>121</height>
      </rect>
     </property>
-    <layout class="QVBoxLayout" name="verticalLayout">
-     <item>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="7" column="0">
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="text">
+        <string>Apply silly car :3</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QRadioButton" name="uniBtn">
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Uni</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
       <widget class="QRadioButton" name="millyBtn">
        <property name="font">
         <font>
@@ -165,22 +191,18 @@
        </property>
       </widget>
      </item>
-     <item>
-      <widget class="QRadioButton" name="uniBtn">
+     <item row="4" column="0">
+      <widget class="QRadioButton" name="lunaBtn">
        <property name="font">
         <font>
          <pointsize>9</pointsize>
         </font>
        </property>
        <property name="text">
-        <string>Uni</string>
+        <string>Lunaistabby</string>
        </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="pushButton_2">
-       <property name="text">
-        <string>Apply silly :3</string>
+       <property name="checked">
+        <bool>false</bool>
        </property>
       </widget>
      </item>
@@ -195,11 +217,6 @@
      <width>400</width>
      <height>21</height>
     </rect>
-   </property>
-  </widget>
-  <widget class="QStatusBar" name="statusbar">
-   <property name="sizeGripEnabled">
-    <bool>false</bool>
    </property>
   </widget>
  </widget>
